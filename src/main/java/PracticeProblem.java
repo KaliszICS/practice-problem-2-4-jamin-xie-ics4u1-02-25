@@ -11,7 +11,7 @@ public class PracticeProblem {
 			int minIndex = i;
 
 			for (int j = i + 1; j < n; j++) {
-				if (names[i].compareTo(names[minIndex]) < 0) {
+				if (names[j].compareToIgnoreCase(names[minIndex]) < 0) {
 					minIndex = j;
 				}
 			}
